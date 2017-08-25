@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Coca-Cola</title>
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+<link rel="stylesheet" href="css/draw.css"/>
+</head>
+<body>
+<div id="page01">
+	<div class="box01"></div>
+	<div class="box02"></div>
+	<div class="box03"></div>
+	<div class="box04"></div>
+<!--弹出框,很遗憾召唤奖品失败，再玩一次按钮-->
+	<div class="mask" style="display: none">
+		<div class="popup">
+			<div class="button01"></div>
+		</div>
+	</div>
+<!--弹出框,很遗憾召唤奖品失败，再玩一次按钮-->
+</div>
+<!--奖品背包页面，奖品背景替换图片6个-->
+<div id="page02" class="back01" style="display: none">
+	<span class="text01">姓 名:</span><input class="textarea01"/>
+	<span class="text02">电 话:</span><input class="textarea02"/>
+	<span class="text03">地 址:</span><input class="textarea03"/>
+
+	<div class="button02"></div>
+</div>
+<!--奖品背包页面，奖品背景替换图片6个-->
+
+<!--奖品一箱可乐及邀请函页面-->
+<div id="page03" class="back07" style="display: none">
+	<span class="text04">姓 名:</span><input class="textarea04"/>
+	<span class="text05">电 话:</span><input class="textarea05"/>
+
+	<div class="button03"></div>
+</div>
+<!--奖品一箱可乐及邀请函页面-->
+
+<!--点击再玩一次的8个所有页面-->
+<div id="page04" class="back15" style="display: none">
+
+	<div class="button04"></div>
+
+</div>
+<!--点击再玩一次的8个所有页面-->
+
+<script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+<script>
+	var HEIGHT = $('body').height();
+	$(window).resize(function() {
+		$('#page02','#page03').height(HEIGHT);
+	});
+
+</script>
+</body>
+</html>

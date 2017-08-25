@@ -1,0 +1,380 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    font-size: 8px;
+}
+
+/*page01----------抽奖页面------------------------------------------------------------------*/
+#page01{
+    width:100%;
+    height:100%;
+    position:absolute;
+    background: url("../img/drawbackground.jpg") no-repeat  center center;
+    background-size: 100% 100%;
+}
+.box01{
+    width: 24%;
+    height: 23%;
+    background: url(../img/gift.png) no-repeat center center;
+    position: absolute;
+    background-size: 100% 100%;
+    top: 32%;
+    left: 20%;
+}
+.box02{
+    width: 24%;
+    height: 23%;
+    background: url(../img/gift.png) no-repeat center center;
+    position: absolute;
+    background-size: 100% 100%;
+    top: 32%;
+    left: 58%;
+}
+.box03{
+    width: 24%;
+    height: 23%;
+    background: url(../img/gift.png) no-repeat center center;
+    position: absolute;
+    background-size: 100% 100%;
+    top: 57%;
+    left: 58%;
+}
+.box04{
+    width: 24%;
+    height: 23%;
+    background: url(../img/gift.png) no-repeat center center;
+    position: absolute;
+    background-size: 100% 100%;
+    top: 57%;
+    left: 20%;
+}
+/*02----------很遗憾，召唤奖品失败------------------------------------------------------------------*/
+.mask{
+    width:100%;
+    height:100%;
+    min-height: 480px;
+    position:absolute;
+    background: rgba(0, 0, 0, 0.8) no-repeat  center center;
+    background-size: 100% 100%;
+}
+.popup{
+    width: 84%;
+    height: 57%;
+    background: url(../img/tanchuchuang.png) no-repeat center center;
+    position: absolute;
+    background-size: 100% 100%;
+    top: 20%;
+    left: 50%;
+    margin-left: -42%;
+}
+.button01{
+    width: 40%;
+    height: 10%;
+    background: url(../img/button1.png) no-repeat center center;
+    position: absolute;
+    background-size: 100% 100%;
+    top: 75%;
+    left: 50%;
+    margin-left: -20%;
+}
+/*02----------很遗憾，召唤奖品失败------------------------------------------------------------------*/
+
+/*page01----------抽奖页面------------------------------------------------------------------*/
+
+/*<!--奖品背包页面-->*/
+#page02{
+    width:100%;
+    height:100%;
+    position:absolute;
+    background-size: 100% 100%;
+    /*display: none;*/
+}
+.back01{
+    background: url("../img/beibao.png") no-repeat  center center;
+}
+.back02{
+    background: url("../img/chuxuguan.jpg") no-repeat  center center;
+}
+.back03{
+    background: url("../img/meishishu.jpg") no-repeat  center center;
+}
+.back04{
+    background: url("../img/shounadai.jpg") no-repeat  center center;
+}
+.back05{
+    background: url("../img/taili.jpg") no-repeat  center center;
+}
+.back06{
+    background: url("../img/yujin.jpg") no-repeat  center center;
+}
+/*
+奖品背景替换图片：
+1.beibao.png
+2.chuxuguan.jpg
+3.meishishu.jpg
+4.shounadai.jpg
+5.taili.jpg
+6.yujin.jpg
+*/
+
+.textarea01{
+    font-size: 12px;
+    font-family: Roboto;
+    color: white;
+    padding-top: 5px;
+    padding-left: 5px;
+    width: 25%;
+    height: 18px;
+    resize: none;
+    /* background-color: #d7dfe4; */
+    border-radius: 6px;
+    border: 1px dashed white;
+    /*border: none;*/
+    outline: none;
+    background: none;
+    position: absolute;
+    left: 52%;
+    top: 68%;
+    margin-left: -30%;
+    line-height: 15px;
+}
+.text01{
+    font-size: 12px;
+    font-family: "微软雅黑";
+    color: white;
+    position: absolute;
+    display: block;
+    left: 11%;
+    top: 69%;
+}
+.textarea02{
+    font-size: 12px;
+    font-family: Roboto;
+    color: white;
+    padding-top: 5px;
+    padding-left: 5px;
+    width: 25%;
+    height: 18px;
+    resize: none;
+    /* background-color: #d7dfe4; */
+    border-radius: 6px;
+    border: 1px dashed white;
+    /*border: none;*/
+    outline: none;
+    background: none;
+    position: absolute;
+    left: 93%;
+    top: 68%;
+    margin-left: -30%;
+    line-height: 15px;
+}
+.text02{
+    font-size: 12px;
+    font-family: "微软雅黑";
+    color: white;
+    position: absolute;
+    display: block;
+    left: 52%;
+    top: 69%;
+}
+.textarea03{
+    font-size: 12px;
+    font-family: Roboto;
+    color: white;
+    padding-top: 5px;
+    padding-left: 5px;
+    width: 66%;
+    height: 18px;
+    resize: none;
+    border-radius: 6px;
+    border: 1px dashed white;
+    outline: none;
+    background: none;
+    position: absolute;
+    left: 22%;
+    top: 74.4%;
+    line-height: 15px;
+}
+.text03{
+    font-size: 12px;
+    font-family: "微软雅黑";
+    color: white;
+    position: absolute;
+    display: block;
+    left: 11%;
+    top: 75%;
+}
+.button02{
+    width: 30%;
+    height: 6%;
+    background: url(../img/button2.png) no-repeat center center;
+    position: absolute;
+    background-size: 100% 100%;
+    top: 83%;
+    left: 50%;
+    margin-left: -15%;
+}
+/*<!--奖品背包页面-->*/
+
+/*<!--奖品一箱可乐及邀请函页面-->*/
+#page03{
+    width:100%;
+    height:100%;
+    position:absolute;
+    background-size: 100% 100%;
+}
+.back07{
+    background: url("../img/kekoukele.jpg") no-repeat  center center;
+}
+.back08{
+    background: url("../img/yaoqinghan.jpg") no-repeat  center center;
+}
+/*
+奖品背景替换图片：
+1.beibao.png
+2.chuxuguan.jpg
+3.meishishu.jpg
+4.shounadai.jpg
+5.taili.jpg
+6.yujin.jpg
+*/
+
+.textarea04{
+    font-size: 12px;
+    font-family: Roboto;
+    color: white;
+    padding-top: 5px;
+    padding-left: 5px;
+    width: 25%;
+    height: 18px;
+    resize: none;
+    /* background-color: #d7dfe4; */
+    border-radius: 6px;
+    border: 1px dashed white;
+    /*border: none;*/
+    outline: none;
+    background: none;
+    position: absolute;
+    left: 52%;
+    top: 73%;
+    margin-left: -30%;
+    line-height: 15px;
+}
+.text04{
+    font-size: 12px;
+    font-family: "微软雅黑";
+    color: white;
+    position: absolute;
+    display: block;
+    left: 11%;
+    top: 74%;
+}
+.textarea05{
+    font-size: 12px;
+    font-family: Roboto;
+    color: white;
+    padding-top: 5px;
+    padding-left: 5px;
+    width: 25%;
+    height: 18px;
+    resize: none;
+    /* background-color: #d7dfe4; */
+    border-radius: 6px;
+    border: 1px dashed white;
+    /*border: none;*/
+    outline: none;
+    background: none;
+    position: absolute;
+    left: 93%;
+    top: 73%;
+    margin-left: -30%;
+    line-height: 15px;
+}
+.text05{
+    font-size: 12px;
+    font-family: "微软雅黑";
+    color: white;
+    position: absolute;
+    display: block;
+    left: 52%;
+    top: 74%;
+}
+.button03{
+    width: 30%;
+    height: 6%;
+    background: url(../img/button2.png) no-repeat center center;
+    position: absolute;
+    background-size: 100% 100%;
+    top: 83%;
+    left: 50%;
+    margin-left: -15%;
+}
+/*<!--奖品一箱可乐及邀请函页面-->*/
+/*<!--点击再玩一次的8个所有页面-->*/
+#page04{
+    width:100%;
+    height:100%;
+    position:absolute;
+    background-size: 100% 100%;
+}
+.back09{
+    background: url("../img/beibao01.jpg") no-repeat  center center;
+}
+.back10{
+    background: url("../img/chuxuguan02.jpg") no-repeat  center center;
+}
+.back11{
+    background: url("../img/kele03.jpg") no-repeat  center center;
+}
+.back12{
+    background: url("../img/meishishu04.jpg") no-repeat  center center;
+}
+.back13{
+    background: url("../img/shounadai05.jpg") no-repeat  center center;
+}
+.back14{
+    background: url("../img/taili06.jpg") no-repeat  center center;
+}
+.back15{
+    background: url("../img/yaoqinghan07.jpg") no-repeat  center center;
+}
+.back16{
+    background: url("../img/yujin08.jpg") no-repeat  center center;
+}
+.button04{
+    width: 30%;
+    height: 6%;
+    background: url(../img/button3.png) no-repeat center center;
+    position: absolute;
+    background-size: 100% 100%;
+    top: 83%;
+    left: 50%;
+    margin-left: -15%;
+}
+
+/*
+点击再玩一次的8个所有背景替换图片：
+1.beibao01.jpg
+2.chuxuguan02.jpg
+3.kele03.jpg
+4.meishishu04.jpg
+5.shounadai05.jpg
+6.taili06.jpg
+7.yaoqinghan07.jpg
+8.yujin08.jpg
+*/
+/*<!--点击再玩一次的8个所有页面-->*/

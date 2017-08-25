@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Coca-Cola</title>
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta content="telephone=no,email=no" name="format-detection">
+    <meta content="fullscreen=yes,preventMove=no" name="ML-Config">
+    <meta http-equiv="Cache-Control"content="no-transform"/>
+	<link rel="stylesheet" href="css/page.css"/>
+    <script type="text/javascript">
+    	var dpr, rem, scale;
+		dpr = window.devicePixelRatio || 1;
+		scale = 1 / dpr;
+		document.write('<meta id="viewport" name="viewport" content="width=device-width,initial-scale='+scale+',minimum-scale='+scale+',maximum-scale='+scale+',user-scalable=no">');
+		rem = document.documentElement.clientWidth / 16;
+		//console.log(document.documentElement.clientWidth);
+		document.getElementsByTagName('html')[0].style.fontSize = rem + 'px';
+    </script>
+</head>
+<body>
+<!--加载页面-->
+<div class="loadingBg">
+	<div class="spinner">
+		<div class="loadingText">0%</div>
+		<div class="pictures">
+			<img src="img/jiazai2.png" alt=""/>
+		</div>
+	</div>
+</div>
+<!--加载页面-->
+
+<div class="main">
+    <div class="wrap">
+		<div id="ahomepage">
+			<div class="cake01"></div>
+			<div class="cake02"></div>
+			<div class="theback"></div>
+			<div class="snow01 snowa01"></div>
+			<div class="snow02 snowa02"></div>
+			<div class="snow03 snowa03"></div>
+			<div class="snow04 snowa04"></div>
+			<div class="snow05 snowa05"></div>
+			<div class="snow06 snowa06"></div>
+			<div class="snow07 snowa07"></div>
+			<div class="snow08 snowa08"></div>
+			<div class="snow09 snowa09"></div>
+			<div class="text01"></div>
+			<div class="text02"></div>
+		</div>
+        <div class="question" style="display: none">
+            <img class="mainImg" src="img/longbackground.jpg">
+			<a href="javascript:;"><img class="round01 animation01" src="img/lid1886-1.png" alt=""/><img class="round01 animation02" src="img/lid1886-2.png" style="opacity: 0" alt=""/></a>
+			<a href="javascript:;"><img class="round02 animation03" src="img/lid1892-1.png" alt=""/><img class="round02 animation04" src="img/lid1892-2.png" style="opacity: 0" alt=""/></a>
+			<a href="javascript:;"><img class="round03 animation05" src="img/lid1915-1.png" alt=""/><img class="round03 animation06" src="img/lid1915-2.png" style="opacity: 0" alt=""/></a>
+			<a href="javascript:;"><img class="round04 animation07" src="img/lid1928-1.png" alt=""/><img class="round04 animation08"src="img/lid1928-2.png"  style="opacity: 0" alt=""/></a>
+			<a href="javascript:;"><img class="round05 animation09" src="img/lid1930-1.png" alt=""/><img class="round05 animation10" src="img/lid1930-2.png" style="opacity: 0" alt=""/></a>
+			<a href="javascript:;"><img class="round06 animation11" src="img/lid1979-1.png" alt=""/><img class="round06 animation12" src="img/lid1979-2.png" style="opacity: 0" alt=""/></a>
+			<a href="javascript:;"><img class="round07 animation13" src="img/lid1999-1.png" alt=""/><img class="round07 animation14"src="img/lid1999-2.png"  style="opacity: 0" alt=""/></a>
+			<a href="javascript:;"><img class="round08 animation15" src="img/lid2015-1.png" alt=""/><img class="round08 animation16"src="img/lid2015-2.png"  style="opacity: 0" alt=""/></a>
+			<img class="abtn" src="img/btn.png" alt=""/>
+			<img class="hand01" src="img/hand.png" alt=""/>
+        </div>
+		<div id="drag">
+			<div class="door01"></div>
+			<div class="door02"></div>
+			<div class="cloud01"></div>
+			<div class="cloud02"></div>
+			<img class="caps" src="img/bottlecaps.png" alt=""/>
+			<img class="hand02" src="img/hand01.png" alt=""/>
+		</div>
+    </div>
+	<div id="music" class="active">
+		<audio id="audio1" src="img/halou.mp3" autoplay="autoplay" preload="auto" loop></audio>
+	</div>
+</div>
+<script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+<script type="text/javascript" src="js/page.js"></script>
+<script type="text/javascript" src="js/taska.js"></script>
+<script type="text/javascript">
+	document.querySelector('#drag').addEventListener('touchstart', function (ev) {
+		event.preventDefault();
+	});
+</script>
+</body>
+	
+</html>
